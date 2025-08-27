@@ -285,7 +285,7 @@ export default function App() {
     .amount { font-weight: 700; }
     .icon { background: transparent; color: var(--muted); border: 1px solid var(--border); width: 34px; height: 34px; border-radius: 10px; cursor: pointer; }
     .icon:hover { color: var(--danger); border-color: var(--danger); }
-    .stack { display: grid; gap: 16px; }
+    .stack { display: grid; gap: 16px; } 
   `;
 
   return (
@@ -295,7 +295,7 @@ export default function App() {
 
       <header>
         <h1>Controle de Despesas</h1>
-        <span className="muted">Primeiro projeto em React · TypeScript · ES6+ · HTML5 · CSS3</span>
+        <span className="muted">Primeiro projeto em React. · TypeScript · ES6+ · HTML5 · CSS3</span>
       </header>
 
       <div className="stack">
